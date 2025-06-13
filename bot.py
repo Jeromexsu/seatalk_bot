@@ -213,6 +213,12 @@ def bot_callback_handler():
             if command == 'introduce':
                 intro_text = '''
                     Hi Folks!👋 我是虾bot🦐。我现在可以占卜运势或者查找有趣的表情包（虾片哦！😉）。快来试试吧！
+                    我是Jeremy Su(aka.文件传输助手)开发的基于seatalk openplatform的bot。
+                    我的代码已开源在：https://github.com/Jeromexsu/seatalk_bot
+                    如果你有任何建议或者想法，欢迎在github上提交issue或者pull request。
+                    参阅：https://open.seatalk.io/docs/
+                    祝大家玩得开心！
+                    🦐 敬上
                 '''
                 send_text_to_user(emp_code=emp_code, text=intro_text)
             elif command == 'foretell':
